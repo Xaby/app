@@ -16,4 +16,9 @@ describe PagesController do
     end
   end
 
+  describe "GET 'Hello'" do
+    it "should be succesful" do
+      get 'hello'
+      response-should be_success
+    end
 end
